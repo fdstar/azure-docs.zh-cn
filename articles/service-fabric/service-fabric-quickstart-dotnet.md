@@ -63,7 +63,7 @@ git clone https://github.com/Azure-Samples/service-fabric-dotnet-quickstart
 
 从克隆的存储库中打开 Voting.sln Visual Studio 解决方案。  
 
-默认情况下，Voting 应用程序被设置为在端口 8080 上侦听。  应用程序端口在 */VotingWeb/PackageRoot/ServiceManifest.xml* 文件中进行设置。  可以通过更新**终结点**元素的 **Port** 属性来更改应用程序端口。  若要在本地部署和运行应用程序，应用程序端口必须为打开状态且在你的计算机上可用。  如果更改应用程序端口，在整篇文章中为“8080”替换新的应用程序端口值。
+默认情况下，Voting 应用程序被设置为在端口 8080 上侦听。  应用程序端口在 */VotingWeb/PackageRoot/ServiceManifest.xml* 文件中进行设置。  可以通过更新**Endpoint**元素的 **Port** 属性来更改应用程序端口。  若要在本地部署和运行应用程序，应用程序端口必须为打开状态且在你的计算机上可用。  如果更改应用程序端口，在整篇文章中为“8080”替换新的应用程序端口值。
 
 若要部署应用程序，请按 F5。
 
